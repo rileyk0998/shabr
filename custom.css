@@ -4,13 +4,17 @@ body {
     height: 100%;
 }
 
+#all {
+    background-image: url('img/balloon-1.jpg') no-repeat center;
+}
+
 #landing {
     display: table;
     width: 100%;
     height: 100%;
     /*font-family: Anton;*/
-    background: linear-gradient( rgba(0, 0, 100, 0.5),
-    rgba(0, 0, 100, .5)),
+    background: linear-gradient( rgba(30, 175, 237, 0.6),
+    rgba(26, 165, 26, .4)),
     url('img/hot-air-balloon-clipart.png') no-repeat center;
     background-size: cover;
 }
@@ -20,4 +24,38 @@ body {
     vertical-align: middle;
     display: table-cell;
     color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+
+#home {
+    width: 100%;
+    background-color: rgb(27, 209, 63, .5);
+}
+
+#info {
+    width: 100%;
+    background-color: rgb(34, 146, 183, .5);
+}
+
+#Gallery {
+    width: 100%;
+    background-color: rgb(76, 247, 195);
+    
+}
+
+#Testimonials {
+    width: 100%;
+    background-color: rgb(255, 175, 79, .7);
+}
+
+#footer {
+    width: 100%;
+    background-color: grey;
+    
 }
