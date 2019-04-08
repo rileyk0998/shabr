@@ -2,6 +2,7 @@ html,
 body {
     width: 100%;
     height: 100%;
+    padding-top: 25px;
 }
 
 #all {
@@ -39,7 +40,6 @@ body {
 #Gallery {
     width: 100%;
     background-color: rgb(76, 247, 195);
-
 }
 
 #Testimonials {
@@ -50,6 +50,10 @@ body {
 #footer {
     width: 100%;
     background-color: grey;
+}
+
+.anchor {
+    padding: 35px 15px;
 }
 
 h1 {
