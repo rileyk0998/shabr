@@ -29,12 +29,12 @@ body {
 
 #home {
     width: 100%;
-    background-color: rgb(27, 209, 63, .5);
+    background-color: rgba(27, 209, 63, .5);
 }
 
 #info {
     width: 100%;
-    background-color: rgb(34, 146, 183, .5);
+    background-color: rgba(34, 146, 183, .5);
 }
 
 #Gallery {
@@ -44,7 +44,7 @@ body {
 
 #Testimonials {
     width: 100%;
-    background-color: rgb(255, 175, 79, .7);
+    background-color: rgba(255, 175, 79, .7);
 }
 
 #footer {
@@ -74,10 +74,6 @@ p {
 
 img {
     margin: 10px;
-}
-
-.container {
-    background: pink;
 }
 
 
